@@ -77892,7 +77892,20 @@ figcaption {
     font-weight: 600;
     display: block;
   }
-
+  .cfxanbu {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(45deg, #00aaff, #ff66b2); /* Blue to Pink gradient */
+    border-radius: 12px; /* Rounded corners */
+    transition: transform 0.3s ease, background 0.3s ease;
+  }
+  
+  /* Scale up the button on hover */
+  .cfxanbu:hover {
+    transform: scale(1.1);
+  }
   .div-block-182 {
     margin-top: 12px;
   }
